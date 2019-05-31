@@ -1,7 +1,8 @@
 class AddAttributesToShow < ActiveRecord::Migration[4.2]
 
-  def 
-
+  def change
+    add_column :shows, :genre, :string 
+    add_column :shows, :
   end
   
 end
